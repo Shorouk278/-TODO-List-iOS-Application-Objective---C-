@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C6161EA323A51FD6006C75D3 /* mid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6161EA223A51FD6006C75D3 /* mid.jpg */; };
+		C6161EA523A51FDF006C75D3 /* low.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6161EA423A51FDE006C75D3 /* low.jpg */; };
+		C6161EA723A52020006C75D3 /* high.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6161EA623A52020006C75D3 /* high.jpg */; };
 		C66E676B239EC98900D3456B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C66E676A239EC98900D3456B /* AppDelegate.m */; };
 		C66E676E239EC98900D3456B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C66E676D239EC98900D3456B /* ViewController.m */; };
-		C66E6771239EC98900D3456B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C66E676F239EC98900D3456B /* Main.storyboard */; };
+		C66E6771239EC98900D3456B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C66E676F239EC98900D3456B /* Main.storyboard */; settings = {ASSET_TAGS = (1, ); }; };
 		C66E6773239EC98E00D3456B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C66E6772239EC98E00D3456B /* Assets.xcassets */; };
 		C66E6776239EC98E00D3456B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C66E6774239EC98E00D3456B /* LaunchScreen.storyboard */; };
 		C66E6779239EC98E00D3456B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C66E6778239EC98E00D3456B /* main.m */; };
+		C672215B23A0121F00385C1E /* TasksTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C672215A23A0121F00385C1E /* TasksTableViewController.m */; };
+		C67EF60823A3D59600B24177 /* AddTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C67EF60723A3D59600B24177 /* AddTaskViewController.m */; };
+		C68A8901239FA04C00158692 /* taskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C68A8900239FA04C00158692 /* taskViewController.m */; };
+		C68A8904239FAA3000158692 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = C68A8903239FAA3000158692 /* Task.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C6161EA223A51FD6006C75D3 /* mid.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mid.jpg; path = ../../mid.jpg; sourceTree = "<group>"; };
+		C6161EA423A51FDE006C75D3 /* low.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = low.jpg; path = ../../low.jpg; sourceTree = "<group>"; };
+		C6161EA623A52020006C75D3 /* high.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = high.jpg; path = ../../high.jpg; sourceTree = "<group>"; };
 		C66E6766239EC98900D3456B /* task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = task.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C66E6769239EC98900D3456B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C66E676A239EC98900D3456B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +36,15 @@
 		C66E6775239EC98E00D3456B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C66E6777239EC98E00D3456B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C66E6778239EC98E00D3456B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C672215923A0121F00385C1E /* TasksTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TasksTableViewController.h; sourceTree = "<group>"; };
+		C672215A23A0121F00385C1E /* TasksTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TasksTableViewController.m; sourceTree = "<group>"; };
+		C67EF60523A3D4EF00B24177 /* AddTaskProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddTaskProtocol.h; sourceTree = "<group>"; };
+		C67EF60623A3D59600B24177 /* AddTaskViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddTaskViewController.h; sourceTree = "<group>"; };
+		C67EF60723A3D59600B24177 /* AddTaskViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddTaskViewController.m; sourceTree = "<group>"; };
+		C68A88FF239FA04C00158692 /* taskViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = taskViewController.h; sourceTree = "<group>"; };
+		C68A8900239FA04C00158692 /* taskViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = taskViewController.m; sourceTree = "<group>"; };
+		C68A8902239FAA3000158692 /* Task.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		C68A8903239FAA3000158692 /* Task.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +77,20 @@
 		C66E6768239EC98900D3456B /* task */ = {
 			isa = PBXGroup;
 			children = (
+				C6161EA623A52020006C75D3 /* high.jpg */,
+				C6161EA223A51FD6006C75D3 /* mid.jpg */,
+				C6161EA423A51FDE006C75D3 /* low.jpg */,
+				C68A8903239FAA3000158692 /* Task.m */,
+				C68A8902239FAA3000158692 /* Task.h */,
+				C67EF60523A3D4EF00B24177 /* AddTaskProtocol.h */,
 				C66E6769239EC98900D3456B /* AppDelegate.h */,
 				C66E676A239EC98900D3456B /* AppDelegate.m */,
+				C67EF60623A3D59600B24177 /* AddTaskViewController.h */,
+				C67EF60723A3D59600B24177 /* AddTaskViewController.m */,
+				C68A8900239FA04C00158692 /* taskViewController.m */,
+				C68A88FF239FA04C00158692 /* taskViewController.h */,
+				C672215A23A0121F00385C1E /* TasksTableViewController.m */,
+				C672215923A0121F00385C1E /* TasksTableViewController.h */,
 				C66E676C239EC98900D3456B /* ViewController.h */,
 				C66E676D239EC98900D3456B /* ViewController.m */,
 				C66E676F239EC98900D3456B /* Main.storyboard */,
@@ -97,6 +128,9 @@
 		C66E675E239EC98900D3456B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					1,
+				);
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "shorouk mohamed";
 				TargetAttributes = {
@@ -128,8 +162,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6161EA523A51FDF006C75D3 /* low.jpg in Resources */,
 				C66E6776239EC98E00D3456B /* LaunchScreen.storyboard in Resources */,
+				C6161EA723A52020006C75D3 /* high.jpg in Resources */,
 				C66E6773239EC98E00D3456B /* Assets.xcassets in Resources */,
+				C6161EA323A51FD6006C75D3 /* mid.jpg in Resources */,
 				C66E6771239EC98900D3456B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,9 +178,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C68A8901239FA04C00158692 /* taskViewController.m in Sources */,
 				C66E676E239EC98900D3456B /* ViewController.m in Sources */,
 				C66E6779239EC98E00D3456B /* main.m in Sources */,
+				C672215B23A0121F00385C1E /* TasksTableViewController.m in Sources */,
+				C68A8904239FAA3000158692 /* Task.m in Sources */,
 				C66E676B239EC98900D3456B /* AppDelegate.m in Sources */,
+				C67EF60823A3D59600B24177 /* AddTaskViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
